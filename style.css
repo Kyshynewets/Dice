@@ -13,10 +13,10 @@ body {
 }
 
 .container {
-  background: rgba(255,255,255,0.9);
-  backdrop-filter: blur(6px);
+   max-width: 320px;
+  width: 100%;
   background: #ffffff;
-  color: #1f2937; /* тёмно-серый текст */
+  color: #1f2937;
   border-radius: 16px;
   padding: 24px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.08);
@@ -43,11 +43,13 @@ h2 {
 }
 
 input[type="checkbox"] {
+  accent-color: #1e6bff;
   width: 18px;
   height: 18px;
 }
 
 button {
+  filter: brightness(1.05);
   width: 100%;
   padding: 14px;
   font-size: 18px;
@@ -68,3 +70,5 @@ button:active {
   font-size: 18px;
   font-weight: 600;
 }
+
+
