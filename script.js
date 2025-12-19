@@ -16,5 +16,11 @@ document.getElementById("spin").onclick = () => {
   document.getElementById("result").innerHTML =
     "🎉 Selected: <b>" + winner + "</b>";
 
+  confetti({
+  particleCount: 120,
+  spread: 70,
+  origin: { y: 0.6 }
+});
+
   tg.HapticFeedback.impactOccurred("medium");
 };
